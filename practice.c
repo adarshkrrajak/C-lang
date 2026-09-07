@@ -1,39 +1,50 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    int marks;
-    printf("Enter marks : ");
-    scanf("%d",&marks);
-
-    if(marks>=90 && marks<=100){
-        printf("A+ \n");
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c",&ch);
+    if(ch>='A' && ch<='Z'){
+        printf("Uppercase letter \n");
     }
-    else if(marks>=80 && marks<90){
-        printf("A \n");
-    }
-    else if(marks>=70 && marks<80){
-        printf("B+ \n");
-    }
-    else if(marks>=60 && marks<70){
-        printf("B \n");
-    }
-    else if(marks>=50 && marks<60){
-        printf("C+ \n");
-    }
-    else if(marks>=40 && marks<50){
-        printf("C \n");
-    }
-    else if(marks>=30 && marks<40){
-        printf("D \n");
-    }
-    else if(marks>=0 && marks<30){
-        printf("F \n");
-    }
-    else{
-        printf("Invalid Marks \n");
+    else if(ch>='a' && ch<='z'){
+        printf("Lowercase letter \n");
     }
     return 0;
 }
+//     int marks;
+//     printf("Enter marks : ");
+//     scanf("%d",&marks);
+
+//     if(marks>=90 && marks<=100){
+//         printf("A+ \n");
+//     }
+//     else if(marks>=80 && marks<90){
+//         printf("A \n");
+//     }
+//     else if(marks>=70 && marks<80){
+//         printf("B+ \n");
+//     }
+//     else if(marks>=60 && marks<70){
+//         printf("B \n");
+//     }
+//     else if(marks>=50 && marks<60){
+//         printf("C+ \n");
+//     }
+//     else if(marks>=40 && marks<50){
+//         printf("C \n");
+//     }
+//     else if(marks>=30 && marks<40){
+//         printf("D \n");
+//     }
+//     else if(marks>=0 && marks<30){
+//         printf("F \n");
+//     }
+//     else{
+//         printf("Invalid Marks \n");
+//     }
+//     return 0;
+// }
 //     int marks;
 //     printf("Enter marks : ");
 //     scanf("%d",&marks);
