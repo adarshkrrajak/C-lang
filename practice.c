@@ -1,17 +1,22 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    char ch;
-    printf("Enter a character: ");
-    scanf("%c",&ch);
-    if(ch>='A' && ch<='Z'){
-        printf("Uppercase letter \n");
-    }
-    else if(ch>='a' && ch<='z'){
-        printf("Lowercase letter \n");
+    for(int i=0; i<=10;i+=1){
+        printf("%d \n",i);
     }
     return 0;
 }
+//     char ch;
+//     printf("Enter a character: ");
+//     scanf("%c",&ch);
+//     if(ch>='A' && ch<='Z'){
+//         printf("Uppercase letter \n");
+//     }
+//     else if(ch>='a' && ch<='z'){
+//         printf("Lowercase letter \n");
+//     }
+//     return 0;
+// }
 //     int marks;
 //     printf("Enter marks : ");
 //     scanf("%d",&marks);
